@@ -147,6 +147,7 @@ return [
 
 
 		'JasperPHP\JasperPHPServiceProvider',
+		'Kodeine\Acl\AclServiceProvider',
 	],
 
 	/*

@@ -17,7 +17,7 @@ class DatabaseSeeder extends Seeder {
 
 		
 
-        User::create(['name' => 'codelution', 'password' => Hash::make( '123456' ) , 'email' => 'foo@bar.com']);
+        User::create(['name' => 'javad', 'password' => Hash::make( '123456' ) , 'email' => 'foo@foo.com']);
 	}
 
 

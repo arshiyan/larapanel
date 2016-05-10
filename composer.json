@@ -5,13 +5,25 @@
 	"license": "MIT",
 	"type": "project",
 	"require": {
-		"laravel/framework": "5.0.*"
+	  "php": ">=5.5.9",
+	  "laravel/framework": "5.1.*",
+	  "barryvdh/laravel-ide-helper": "^2.1",
+	  "barryvdh/laravel-debugbar": "^2.0",
+	  "laravelcollective/html": "5.1.*",
+	  "doctrine/dbal": "~2.3",
+	  "mccool/laravel-auto-presenter": "^4.2",
+	  "intervention/image": "^2.3",
+	  "cornford/googlmapper": "^2.2",
+	  "yajra/laravel-datatables-oracle": "~6.0",
+	  "morilog/jalali": "^1.0",
+	  "kodeine/laravel-acl": "~1.0@dev"
 
 	},
 	"require-dev": {
 		"phpunit/phpunit": "~4.0",
 		"phpspec/phpspec": "~2.1",
-		"cossou/jasperphp": "dev-master"
+		"cossou/jasperphp": "dev-master",
+	  "laralib/l5scaffold": "^1.0"
 	},
 	"autoload": {
 		"classmap": [
